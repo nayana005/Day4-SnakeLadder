@@ -44,5 +44,8 @@ public class SnakeLadder {
 				break;
 			}	
 		}
+		if (position == 100) {
+			System.out.println(" Congratulations, you won!! ");	
+		}
 	}
 }
